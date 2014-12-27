@@ -1,0 +1,360 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+
+    <title>@ViewBag.Title</title>
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta charset="ISO-8859-1">
+    
+    <!--<meta http-equiv="cache-control" content="max-age=120"/>-->
+
+    <meta http-equiv="cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta http-equiv="expires" content="0" />
+    
+    <link href="humans.txt" rel="author" />
+    
+    <link rel="canonical" href="" />
+ 
+    <!-- stylesheet -->
+    <link href="Content/styles/bootstrap.css" rel="stylesheet">
+    <!--<link href="Content/styles/bootstrap-responsive.css" rel="stylesheet">-->
+
+    
+    <link href="Content/styles/global.css" rel="stylesheet" />
+    <link href="Content/styles/navigation.css" rel="stylesheet" />
+ 
+
+    
+    <!-- favicon -->
+    <link rel="shortcut icon" href="Content/images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="Content/images/favicon.ico" type="image/x-icon" /> 
+    
+    <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+
+
+
+
+</head>
+<body>
+    <div>
+        @RenderBody()
+    </div>
+
+
+
+    <header>
+        header
+  	
+    <div class="brand">brand</div>
+        <!--end of brand-->
+
+        <div class="accessibility">accessibility</div>
+        <!--end of accessibility-->
+
+    </header>
+    <!--end of header-->
+
+
+    <!-- navigation -->
+    <nav>
+        navigation
+  	<div id="menu">
+          <ul>
+              <li><a href="#">Link 1</a></li>
+              <li><a href="#">Link 2</a>
+          </ul>
+      </div>
+    </nav>
+    <!-- navigation -->
+
+    <!-- add spacers between -->
+    <div class="spacer200"></div>
+
+
+    <section id="showcase"></section>
+    <!-- end of showcase -->
+
+
+    <section id="content">
+        <article>
+            <h2><a href="#">Lorem ipsum dolor sit amet</a></h2>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        </article>
+    </section>
+    <!--end of main-->
+
+
+
+
+
+
+    <!-- modal -->
+    <div class="modal hide fade" id="myModal">
+        <div class="modal-header">
+            <a class="close" data-dismiss="modal">×</a>
+            <h3>Modal header</h3>
+        </div>
+        <div class="modal-body">
+            <p>One fine body…</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#" class="btn" data-dismiss="modal">Close</a>
+            <a href="#" class="btn btn-primary">Save changes</a>
+        </div>
+    </div>
+
+    <a class="btn" data-toggle="modal" href="#myModal">Launch Modal</a>
+    <!-- end of modal -->
+
+
+
+
+    <!-- examples -->
+    <!-- tabs -->
+    <script type="text/javascript">
+        $('#myTab a').click(function (e) {
+            e.preventDefault();
+            $(this).tab('show');
+        })
+    </script>
+    <ul id="myTab" class="nav nav-tabs">
+        <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+        <li><a href="#profile" data-toggle="tab">Profile</a></li>
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li><a href="#dropdown1" data-toggle="tab">fat</a></li>
+                <li><a href="#dropdown2" data-toggle="tab">mdo</a></li>
+            </ul>
+        </li>
+    </ul>
+    <div id="myTabContent" class="tab-content">
+        <div class="tab-pane fade in active" id="home">
+            <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+        </div>
+        <div class="tab-pane fade" id="profile">
+            <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+        </div>
+        <div class="tab-pane fade" id="dropdown1">
+            <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
+        </div>
+        <div class="tab-pane fade" id="dropdown2">
+            <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater. Lomo wolf viral, mustache readymade thundercats keffiyeh craft beer marfa ethical. Wolf salvia freegan, sartorial keffiyeh echo park vegan.</p>
+        </div>
+    </div>
+    <hr>
+
+
+
+
+
+    <div class="alert alert-block alert-error fade in">
+        <button class="close" data-dismiss="alert">×</button>
+        <h4 class="alert-heading">Oh snap! You got an error!</h4>
+        <p>Change this and that and try again. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.</p>
+        <p>
+            <a class="btn btn-danger" href="#">Take this action</a> <a class="btn" href="#">Or do this</a>
+        </p>
+    </div>
+
+    <hr />
+
+
+
+
+
+
+    <div class="form-actions">
+        <button type="submit" class="btn btn-primary">Save changes</button>
+        <button class="btn">Cancel</button>
+    </div>
+
+    <hr />
+
+
+
+
+
+
+    <div class="row">
+        <div class="span4">
+            <div class="btn-toolbar" style="margin-bottom: 9px">
+                <div class="btn-group">
+                    <a class="btn" href="#"><i class="icon-align-left"></i></a>
+                    <a class="btn" href="#"><i class="icon-align-center"></i></a>
+                    <a class="btn" href="#"><i class="icon-align-right"></i></a>
+                    <a class="btn" href="#"><i class="icon-align-justify"></i></a>
+                </div>
+                <div class="btn-group">
+                    <a class="btn btn-primary" href="#"><i class="icon-user icon-white"></i>User</a>
+                    <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#"><i class="icon-pencil"></i>Edit</a></li>
+                        <li><a href="#"><i class="icon-trash"></i>Delete</a></li>
+                        <li><a href="#"><i class="icon-ban-circle"></i>Ban</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#"><i class="i"></i>Make admin</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p>
+                <a class="btn" href="#"><i class="icon-refresh"></i>Refresh</a>
+                <a class="btn btn-success" href="#"><i class="icon-shopping-cart icon-white"></i>Checkout</a>
+                <a class="btn btn-danger" href="#"><i class="icon-trash icon-white"></i>Delete</a>
+            </p>
+            <p>
+                <a class="btn btn-large" href="#"><i class="icon-comment"></i>Comment</a>
+                <a class="btn btn-small" href="#"><i class="icon-cog"></i>Settings</a>
+                <a class="btn btn-small btn-info" href="#"><i class="icon-info-sign icon-white"></i>More Info</a>
+            </p>
+        </div>
+        <div class="span4">
+            <div class="well" style="padding: 8px 0;">
+                <ul class="nav nav-list">
+                    <li class="active"><a href="#"><i class="icon-home icon-white"></i>Home</a></li>
+                    <li><a href="#"><i class="icon-book"></i>Library</a></li>
+                    <li><a href="#"><i class="icon-pencil"></i>Applications</a></li>
+                    <li><a href="#"><i class="i"></i>Misc</a></li>
+                </ul>
+            </div>
+            <!-- /well -->
+        </div>
+        <div class="span4">
+            <form>
+                <div class="control-group">
+                    <label class="control-label" for="inputIcon">Email address</label>
+                    <div class="controls">
+                        <div class="input-prepend">
+                            <span class="add-on"><i class="icon-envelope"></i></span>
+                            <input class="span2" id="inputIcon" type="text">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <hr />
+
+
+
+
+
+
+
+
+
+
+
+
+    <form class="form-horizontal">
+        <fieldset>
+
+            <div class="controls">
+                <div class="input-append">
+                    <input class="span2" id="appendedInputButton" size="16" type="text">
+                    <button class="btn" type="button">Procurar</button>
+                </div>
+            </div>
+
+        </fieldset>
+    </form>
+    <hr />
+
+
+
+
+
+
+
+
+    <div class="well">
+        <input type="text" class="span2" id="datapicker">
+    </div>
+    <hr />
+    <!-- end of examples -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <aside id="left-sidebar">
+        left-sidebar						
+    </aside>
+    <!-- end of left sidebar -->
+
+    <aside id="middle-sidebar">
+        middle-sidebar						
+    </aside>
+    <!-- end of middle sidebar -->
+
+    <aside id="right-sidebar">
+        right-sidebar						
+    </aside>
+    <!-- end of right sidebar -->
+
+
+
+    <footer>
+        footer
+  	<section class="copyright">
+          <p>&copy; Copyright Nome do Cliente. Todos os direitos reservados.</p>
+      </section>
+        <!--end of copyright-->
+
+        <section class="signature">
+            <p><a href="http://www.agenciahuman.com.br" title="Web Design: Agência Human">Web Design: Ag&ecirc;ncia Human</a> | Site Certificado: W3C | CSS3 | HTML5</p>
+        </section>
+        <!--end of signature-->
+    </footer>
+    <!--end of footer-->
+
+
+    <!-- jquery -->
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/bootstrap-datepicker.js"></script>
+    <script>
+        $(function () {
+            $('#datapicker').datepicker({
+                format: 'dd/mm/yyyy',
+            });
+
+        });
+	</script>
+
+<!-- end of analitycs -->
+
+
+
+</body>
+</html>
+
+
+
+
+

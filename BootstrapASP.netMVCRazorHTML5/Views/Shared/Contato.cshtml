@@ -1,0 +1,72 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+<form class="form-horizontal" action="/Contato" method="post" enctype="application/x-www-form-urlencoded">
+    <fieldset>
+
+        <div class="control-group">
+            <label class="control-label" for="nome">Nome:</label>
+            <div class="controls">
+                <input type="text" name="nome" class="input-xlarge required">
+                @Html.ValidationMessage("nome")
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label class="control-label" for="cidade">Cidade:</label>
+            <div class="controls">
+                <input type="text" name="cidade" class="input-xlarge required">
+                @Html.ValidationMessage("cidade")
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label class="control-label" for="empresa">Empresa:</label>
+            <div class="controls">
+                <input type="text" name="empresa" class="input-xlarge">
+                @Html.ValidationMessage("empresa")
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label class="control-label" for="telefone">Telefone:</label>
+            <div class="controls">
+                <input type="text" name="telefone" class="input-xlarge required">
+                @Html.ValidationMessage("telefone")
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label class="control-label" for="email">E-mail:</label>
+            <div class="controls">
+                <input type="text" name="email" class="input-xlarge required">
+                @Html.ValidationMessage("email")
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label class="control-label" for="comenterios">Comentários:</label>
+            <div class="controls">
+                <textarea name="comentarios" class="input-xlarge required" rows="7"></textarea>
+                @Html.ValidationMessage("comentarios")
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label class="control-label" for="email">Arquivo:</label>
+            <div class="controls">
+                <input type="file" name="fileAttachment" class="input-xlarge required">
+            </div>
+        </div>
+
+        <div class="form-actions">
+            <button type="submit" class="btn">Enviar</button>
+        </div>
+
+    </fieldset>
+  </form>
+

@@ -1,0 +1,8 @@
+/* Author */
+  Author: Leonel Folmer
+  Site: http://about.leonelfolmer.com
+  Location: Curitiba - Brazil
+  
+  Standards: *HTML5, CSS3
+  Components: jQuery
+

@@ -1,0 +1,88 @@
+/*author:     Agência Human - Design e Comunicação
+  date:      
+  customer:     
+*/
+
+/*body wrapper
+-------------------------------------*/
+body { width:974px; margin: 0 auto; border:#F00 1px solid }
+
+
+/*@body - interessante isso ...
+	acima de 974px paddind de 200px de cada lado
+-------------------------------------*/
+/*@media (min-width: 974px) {
+body { padding-left:200px; padding-right:200px }
+}
+@media (min-width: 786px) {
+body { padding-left:120px; padding-right:120px }
+}
+@media (min-width: 620px) {
+body { padding-left:70px; padding-right:70px }
+}*/
+
+
+
+/*header
+-------------------------------------*/
+header 			{ border:#0F0 1px solid }
+.accessibility 	{ }
+.brand 			{ }
+
+/*main
+-------------------------------------*/
+#showcase { border:#F00 1px solid }
+
+/*content
+-------------------------------------*/
+#content { border:#FF0 1px solid }
+
+/*articles
+-------------------------------------*/
+article { }
+
+/*sidebars
+-------------------------------------*/
+aside 			{ border:#FF0 1px solid; width:100px; height:100px }
+#left-sidebar 	{ float:left }
+#middle-sidebar { float:left }
+#right-sidebar 	{ float:right }
+
+/*typography
+-------------------------------------*/
+h1, h2, h3, h4, h5, h6 { }
+
+/*images
+-------------------------------------*/
+.alignleft  	{ float: left }
+
+/*clear
+-------------------------------------*/
+.clearleft 	{ clear:left }
+.clearright { clear:right }
+.clearboth  { clear:both }
+
+/*footer
+-------------------------------------*/
+footer 			{ border:#F0F 1px solid; clear:both }
+.copyright 		{ }
+.signature 		{ }
+.footer-segment { }
+
+/*links
+-------------------------------------*/
+a 		{ }
+a:hover { }
+
+/*form elements from bootstrap
+-------------------------------------*/
+/*.hide { visibility:hidden }*/
+.help-inline 		 { color:#B94A48 }
+.help-inline-captcha { display: inline-block; *display: inline; vertical-align: middle; *zoom: 1; color: #555555; }
+.characters 			{ width:95px }
+
+section#success 		{ display: none }
+
+
+/*captcha*/
+

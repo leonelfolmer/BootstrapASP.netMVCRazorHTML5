@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+
+    <title>@ViewBag.Title</title>
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta charset="ISO-8859-1">
+    
+    <!--<meta http-equiv="cache-control" content="max-age=120"/>-->
+
+    <meta http-equiv="cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta http-equiv="expires" content="0" />
+    
+    <link href="humans.txt" rel="author" />
+    
+    <link rel="canonical" href="" />
+ 
+    <!-- stylesheet -->
+    <link href="Content/styles/bootstrap.css" rel="stylesheet">
+    <!--<link href="Content/styles/bootstrap-responsive.css" rel="stylesheet">-->
+
+    
+    <link href="Content/styles/global.css" rel="stylesheet" />
+    <link href="Content/styles/navigation.css" rel="stylesheet" />
+ 
+
+    
+    <!-- favicon -->
+    <link rel="shortcut icon" href="Content/images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="Content/images/favicon.ico" type="image/x-icon" /> 
+    
+    <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+
+
+
+
+</head>
+<body>
+
+    @RenderBody()
+
+
+
+
+<footer>
+        footer
+  	<section class="copyright">
+          <p>Copyright @DateTime.Now.Year Nome do Cliente. Todos os direitos reservados.</p>
+      </section>
+        <!--end of copyright-->
+
+        <section class="signature">
+            <p><a href="http://www.agenciahuman.com.br" title="Web Design: Agência Human">Web Design: Ag&ecirc;ncia Human</a> | Site Certificado: W3C | CSS3 | HTML5</p>
+        </section>
+        <!--end of signature-->
+    </footer>
+    <!--end of footer-->
+
+
+    <!-- jquery -->
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/bootstrap-datepicker.js"></script>
+    <script>
+        $(function () {
+            $('#datapicker').datepicker({
+                format: 'dd/mm/yyyy',
+            });
+
+        });
+	</script>
+
+<!-- end of analitycs -->
+
+
+
+</body>
+</html>
+
+    
